@@ -1,0 +1,87 @@
+body {
+	background-image: url("../images/starwars-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: 'Audiowide', sans-serif;
+	font-size: 34px;
+}
+
+header {
+	font-size: 44px;
+	text-align: center;
+}
+
+.wrapper {
+	/*color: #B5A57E;*/
+}
+
+.gameName {
+	text-shadow: 0px 3px 5px rgba(255, 255, 0, 0.6);
+}
+
+button {
+	background-color: #9E906E;
+}
+
+button:hover {
+	background-color: #8C8062;
+	border: 1px solid rgb(57, 255, 20);
+  	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 8px rgba(57, 255, 20, 0.6);
+}
+
+img {
+	height: 160px;
+	width: 200px;
+}
+
+.tls {
+	text-shadow: 0px 3px 5px rgba(82, 168, 236, 0.6);
+}
+
+.tds {
+	text-shadow: 0px 3px 5px rgba(255, 1, 1, 0.6);
+}
+
+.wrapperCharacter {
+	/*margin-bottom: 20px;*/
+}
+
+.character {
+	font-size: 24px;
+	text-align: center;
+	background-color: rgba(158, 144, 110, 0.4);
+	margin: 5px;
+	padding-bottom: 30px;
+	border: 1px solid rgba(158, 144, 110, 0.4);
+}
+
+.character1:hover {
+  	border: 1px solid rgb(86, 180, 239);
+  	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 8px rgba(82, 168, 236, 0.6);
+}
+
+.character2:hover {
+  	border: 1px solid rgb(255, 1, 1);
+ 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 8px rgba(255, 1, 1, 0.6);
+}
+
+.dual-arena {
+	text-align: center;
+}
+
+.lsFight, .v {
+	text-shadow: 0px 3px 5px rgba(82, 168, 236, 0.6);
+}
+
+.dsFight, .s {
+	text-shadow: 0px 3px 5px rgba(255, 1, 1, 0.6);
+}
+.v, .s {
+	font-size: 60px;
+	text-align: center;
+}
+
+.charLS {
+	height: 400px;
+	width: 300px;
+}
